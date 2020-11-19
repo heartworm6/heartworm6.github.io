@@ -4,50 +4,13 @@
   
   
   <entry>
-    <title>这是我的第二篇文章</title>
-    <link href="/2020/11/19/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <url>/2020/11/19/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <title>js笔记</title>
+    <link href="/2020/11/19/js%E7%AC%94%E8%AE%B0/"/>
+    <url>/2020/11/19/js%E7%AC%94%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<p>这是我的js笔记</p><a id="more"></a><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h3 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h3><p>p标签</p><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre><p>hadjhdjashidaspdksajdcsal</p><h2 id="dierzhang"><a href="#dierzhang" class="headerlink" title="dierzhang"></a>dierzhang</h2><p>jsajkllsdl</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>js</category>
-      
-    </categories>
+    <content type="html"><![CDATA[<p>知识点</p><a id="more"></a><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3>]]></content>
     
     
-    <tags>
-      
-      <tag>js</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>第一篇文字</title>
-    <link href="/2020/11/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E5%AD%97/"/>
-    <url>/2020/11/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E5%AD%97/</url>
-    
-    <content type="html"><![CDATA[<p>这是我的js笔记</p><a id="more"></a><p>这是一段话7878787878787877777787敖德萨来到拉萨到拉萨</p><h3>4545</h3><h3 id="45454"><a href="#45454" class="headerlink" title="45454"></a>45454</h3><h3 id="456"><a href="#456" class="headerlink" title="456"></a>456</h3><h3 id="456-1"><a href="#456-1" class="headerlink" title="456"></a>456</h3><img src="../../themes/fluid/source/img/1.jpg" style="zoom:25%;" /><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> main&#123;    daskdj&#125;</code></pre><ul><li>45</li><li>45</li><li>45</li></ul><ol><li>45</li><li>465</li><li>5464</li><li>46545</li><li>4646</li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>js</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>js</tag>
-      
-    </tags>
     
   </entry>
   
