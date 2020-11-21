@@ -196,7 +196,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      648 字
+      1.2k 字
     </span>
   
 
@@ -206,7 +206,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      13
        分钟
     </span>
   
@@ -308,7 +308,106 @@
 
 <hr>
 
-<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3>
+<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><p>1.数据类型</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  数据类型指的是字面量的类型；</span>
+<span class="hljs-comment">  6种数据类型</span>
+<span class="hljs-comment">  string  字符串</span>
+<span class="hljs-comment">  number  数值</span>
+<span class="hljs-comment">  boolean 布尔值</span>
+<span class="hljs-comment">  null    空值</span>
+<span class="hljs-comment">  undefind未定义</span>
+<span class="hljs-comment">  object  对象</span>
+<span class="hljs-comment">  用typeof检查数据类型</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>2.string 字符串</p>
+<pre><code class="hljs js"><span class="hljs-comment">/* </span>
+<span class="hljs-comment">  在js中字符串需要用引号引起来</span>
+<span class="hljs-comment">  使用单引号和双引号都可以，但不能混着用；</span>
+<span class="hljs-comment">  \但表示一个特殊符号时可以使用\进行转义；</span>
+<span class="hljs-comment">  \n换行</span>
+<span class="hljs-comment">  \t制表符 相当于空格；</span>
+<span class="hljs-comment">  \\表示\</span>
+<span class="hljs-comment">/*</span></code></pre>
+
+<p>3.number 数值</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  在js中所有的数值都是number类型</span>
+<span class="hljs-comment">  包括整数和浮点数（小数）</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>4.Boolean 布尔值</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  布尔值只有两个</span>
+<span class="hljs-comment">  true</span>
+<span class="hljs-comment">     表示真</span>
+<span class="hljs-comment">  false、</span>
+<span class="hljs-comment">     表示假</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>5.null 空值</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  null 类型只有一个，就是null；</span>
+<span class="hljs-comment">  用typeof检查一个null值时 会返回object</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>6.强制类型转换</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  强制数据类型转换</span>
+<span class="hljs-comment">     指将一个数据类型转换为其他数据类型；</span>
+<span class="hljs-comment">      转为 string     number     </span>
+<span class="hljs-comment">  调用被转换类型的tostring（）方法</span>
+<span class="hljs-comment">  给调用方法不会影响到变量， 他会将转换的结果返回；</span>
+<span class="hljs-comment">  该方法不能转null    undefined 因为他们没有tostring方法</span>
+<span class="hljs-comment">  推荐使用 变量名=string(变量名)；函数</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>7.转换为number</p>
+<pre><code class="hljs js"><span class="hljs-comment">/* </span>
+<span class="hljs-comment">  使用 变量名=number(变量)函数；</span>
+<span class="hljs-comment">  * 字符串转数字</span>
+<span class="hljs-comment">      纯数字转换为数字</span>
+<span class="hljs-comment">      如果有非数字内容转换为nan</span>
+<span class="hljs-comment">      字符串是空串或是空格为0</span>
+<span class="hljs-comment">   * 布尔转数字</span>
+<span class="hljs-comment">      true转为1</span>
+<span class="hljs-comment">      false转为0</span>
+<span class="hljs-comment">   * null转为数字为0</span>
+<span class="hljs-comment">   * undefined转数字 nan</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>8.parseint</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">   这种方法专门用来对付字符串</span>
+<span class="hljs-comment">   parsenint()把一个字符串转换为一个整数，可将字符串中有效内容去出来；只会去整数</span>
+<span class="hljs-comment">   </span>
+<span class="hljs-comment">   parsefloat()把一个字符串转换为一个浮点数 和上方作用类似可获得有效小数</span>
+<span class="hljs-comment"></span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>9.怎么表示进制数</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  在js中如果需要表示16进制数，则要以0x开头；</span>
+<span class="hljs-comment">              表示8进制数，则要0开头；</span>
+<span class="hljs-comment">              表示2进制数，则要0b开头；</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<p>10.转换为boolean</p>
+<pre><code class="hljs js"><span class="hljs-comment">/*</span>
+<span class="hljs-comment">  将其他数据类型转换为boolean</span>
+<span class="hljs-comment">      使用Boolean();</span>
+<span class="hljs-comment">  * 数字转布尔</span>
+<span class="hljs-comment">       除了0和nan，其余都是true</span>
+<span class="hljs-comment">  * 字符串转布尔</span>
+<span class="hljs-comment">       除了空串其余都是true</span>
+<span class="hljs-comment">  * null和undefined都是false</span>
+<span class="hljs-comment">  * 对象也是true</span>
+<span class="hljs-comment"> */</span></code></pre>
+
+<hr>
+
+
             </div>
             <hr>
             <div>
